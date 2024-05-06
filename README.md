@@ -1,4 +1,4 @@
-Ecommerce Website
+## Ecommerce Website
 This is a full-stack ecommerce website built using Vite.js for the frontend and Node.js for the backend.
 
 Features
