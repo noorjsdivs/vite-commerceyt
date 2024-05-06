@@ -8,7 +8,8 @@ Product Details: View detailed information about each product.
 Shopping Cart: Add products to a shopping cart and proceed to checkout.
 Order Management: Users can view and manage their orders.
 
-##Technologies Used
+Technologies Used
+
 Frontend:
 Vite.js
 firebase
@@ -19,32 +20,25 @@ react-stripe-checkout
 Backend:
 Node.js
 Express.js
-MongoDB (or your preferred database)
-JWT for authentication
+stripe
+
 Getting Started
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/ecommerce-website.git
-cd ecommerce-website
+git clone [https://github.com/noorjsdivs/vite-commerceyt.git](https://github.com/noorjsdivs/vite-commerceyt.git)
+cd vite-commerceyt
 Install dependencies:
 bash
 Copy code
 # Install frontend dependencies
 cd frontend
-npm install
+pnpm install
 
 # Install backend dependencies
 cd ../backend
-npm install
-Set up environment variables:
-Create a .env file in the backend directory.
-Define the following environment variables:
-makefile
-Copy code
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/ecommerce
-JWT_SECRET=your_jwt_secret
+pnpm install
+
 Start the development servers:
 bash
 Copy code
@@ -64,4 +58,4 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgements
-Special thanks to Vite.js, Node.js, and Vue.js for making this project possible.
+Special thanks to Vite.js, Node.js for making this project possible.
