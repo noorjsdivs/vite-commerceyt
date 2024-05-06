@@ -2,18 +2,20 @@ Ecommerce Website
 This is a full-stack ecommerce website built using Vite.js for the frontend and Node.js for the backend.
 
 Features
-User Authentication: Users can sign up, log in, and log out securely.
+User Authentication: Users can log in, and log out securely.
 Product Catalog: Display a list of products available for purchase.
 Product Details: View detailed information about each product.
 Shopping Cart: Add products to a shopping cart and proceed to checkout.
 Order Management: Users can view and manage their orders.
-Admin Panel: Admins can add, update, and delete products.
-Technologies Used
+
+##Technologies Used
 Frontend:
 Vite.js
-Vue.js
-HTML5
-CSS3
+firebase
+react-redux
+redux-persist
+react-stripe-checkout
+
 Backend:
 Node.js
 Express.js
