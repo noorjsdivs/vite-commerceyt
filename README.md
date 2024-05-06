@@ -3,9 +3,13 @@ This is a full-stack ecommerce website built using Vite.js for the frontend and 
 
 Features
 User Authentication: Users can log in, and log out securely.
+
 Product Catalog: Display a list of products available for purchase.
+
 Product Details: View detailed information about each product.
+
 Shopping Cart: Add products to a shopping cart and proceed to checkout.
+
 Order Management: Users can view and manage their orders.
 
 ## Technologies Used
