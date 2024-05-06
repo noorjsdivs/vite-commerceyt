@@ -3,9 +3,13 @@ This is a full-stack ecommerce website built using Vite.js for the frontend and 
 
 Features
 User Authentication: Users can log in, and log out securely.
+
 Product Catalog: Display a list of products available for purchase.
+
 Product Details: View detailed information about each product.
+
 Shopping Cart: Add products to a shopping cart and proceed to checkout.
+
 Order Management: Users can view and manage their orders.
 
 ## Technologies Used
@@ -51,13 +55,16 @@ Copy code
 
 ## Start frontend server
 cd frontend
-npm run dev
-
-## Start backend server
-cd ../backend
-npm run dev
+pnpm dev
 Open the application:
 Open your browser and navigate to (http://localhost:5173).
+
+## Start backend server
+cd server
+pnpm start
+Open the application:
+Open your browser and navigate to (http://localhost:8000).
+
 Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any bugs or have suggestions for improvements.
 
