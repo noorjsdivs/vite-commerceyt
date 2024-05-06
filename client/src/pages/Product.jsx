@@ -16,9 +16,11 @@ const Product = () => {
 
   const location = useLocation();
   useEffect(() => {
-    setDetails(
-      productData.find((item) => item?._id === location.state.item._id)
-    );
+    productData?.length > 0
+      ? setDetails(
+          productData.find((item) => item?._id === location.state.item._id)
+        )
+      : setDetails(location.state.item);
   }, [location, productData]);
 
   return (
@@ -82,7 +84,7 @@ const Product = () => {
                 >
                   -
                 </button>
-                {details.quantity}
+                {details.quantity || 1}
                 <button
                   onClick={() =>
                     dispatch(
