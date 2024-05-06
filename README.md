@@ -17,6 +17,10 @@ react-redux
 redux-persist
 react-stripe-checkout
 
+
+![vite-ecommerceyt](https://github.com/noorjsdivs/vite-commerceyt/assets/104062645/1dc95aec-6dfd-4698-96cc-faf838c703a4)
+
+
 Backend:
 Node.js
 Express.js
@@ -32,11 +36,11 @@ Install dependencies:
 bash
 Copy code
 # Install frontend dependencies
-cd frontend
+cd client
 pnpm install
 
 # Install backend dependencies
-cd ../backend
+cd server
 pnpm install
 
 Start the development servers:
@@ -50,7 +54,7 @@ npm run dev
 cd ../backend
 npm run dev
 Open the application:
-Open your browser and navigate to http://localhost:3000.
+Open your browser and navigate to (http://localhost:5173).
 Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any bugs or have suggestions for improvements.
 
