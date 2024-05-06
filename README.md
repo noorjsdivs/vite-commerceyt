@@ -1,4 +1,4 @@
-## Ecommerce Website
+# Ecommerce Website
 This is a full-stack ecommerce website built using Vite.js for the frontend and Node.js for the backend.
 
 Features
@@ -8,7 +8,7 @@ Product Details: View detailed information about each product.
 Shopping Cart: Add products to a shopping cart and proceed to checkout.
 Order Management: Users can view and manage their orders.
 
-Technologies Used
+## Technologies Used
 
 Frontend:
 Vite.js
@@ -26,7 +26,8 @@ Node.js
 Express.js
 stripe
 
-Getting Started
+## Getting Started
+
 Clone the repository:
 bash
 Copy code
@@ -35,22 +36,24 @@ cd vite-commerceyt
 Install dependencies:
 bash
 Copy code
-# Install frontend dependencies
+
+## Install frontend dependencies
 cd client
 pnpm install
 
-# Install backend dependencies
+## Install backend dependencies
 cd server
 pnpm install
 
 Start the development servers:
 bash
 Copy code
-# Start frontend server
+
+## Start frontend server
 cd frontend
 npm run dev
 
-# Start backend server
+## Start backend server
 cd ../backend
 npm run dev
 Open the application:
