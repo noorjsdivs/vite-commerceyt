@@ -16,12 +16,13 @@ const Product = () => {
 
   const location = useLocation();
   useEffect(() => {
-    productData?.length > 0 &&
-      productData.find((item) =>
-        item?.id === location.state.item._id
-          ? setDetails(item)
-          : setDetails(location.state.item)
-      );
+    productData?.length > 0
+      ? productData.find((item) =>
+          item?.id === location.state.item._id
+            ? setDetails(item)
+            : setDetails(location.state.item)
+        )
+      : setDetails(location.state.item);
   }, [location, productData]);
 
   return (
